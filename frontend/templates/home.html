@@ -1,1 +1,83 @@
-LOL
+<!DOCTYPE html>
+<html>
+<head>
+	<title>7WebStudio</title>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.css">
+	<style type="text/css">
+		/* Full height */
+		#layout { height: 100% }
+
+		/* Separate main containers */
+		#layout > .container { margin-bottom: 5rem }
+
+		/* Tweak logo text */
+		a[name="master-head"] + .container { padding: 10rem 0 }
+		a[name="master-head"] + .container .logo { font-size: 5rem }
+		a[name="master-head"] + .container .subtitle { font-size: 1.5rem }
+	</style>
+</head>
+<body>
+	<div id="layout" class="ui inverted segment">
+		{# Master head #}
+		<a name="master-head"></a>
+		<div class="ui text center aligned container">
+			<h1 class="logo">7WebStudio</h1>
+			<p class="subtitle">Have you seen ninjas around?</p>
+		</div>
+
+		{# About #}
+		<a name="about"></a>
+		<div class="ui inverted segment stackable three column grid center aligned container">
+			<h2 class="ui horizontal header divider">About</h2>
+			<div class="column">
+				<h3>What we do</h3>
+				<p>We do web development.</p>
+				<p>We create solutions for the unexplored.</p>
+				<p>We create software to the Wild World Web.</p>
+			</div>
+			<div class="column">
+				<h3>Why we do it</h3>
+				<p>Because it's fun.</p>
+				<p>Because we learn with it.</p>
+				<p>Because every challenge counts.</p>
+			</div>
+			<div class="column">
+				<h3>Where we are</h3>
+				<p>Everywhere. Anywhere.</p>
+				<p>We don't write code to be pop.</p>
+				<p>Have you heard about ninjas while they work?</p>
+			</div>
+		</div>
+
+		{# Testimonials #}
+		<a name="testimonials"></a>
+		<div class="ui inverted segment stackable two column grid container">
+			<h2 class="ui horizontal header divider">What they say</h2>
+			<div class="column">
+				<blockquote>
+					<p>They have done a hell of a job when there was no
+					existing solution for my business.</p>
+					<footer>
+						A secret customer
+					</footer>
+				</blockquote>
+			</div>
+			<div class="column">
+				<blockquote>
+					<p>I don't know how they get such talent. Maybe it's really
+					about dark arts.</p>
+					<footer>
+						Another secret customer
+					</footer>
+				</blockquote>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-beta1/jquery.min.js"></script>
+	<script src="//cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.8/semantic.min.js"></script>
+</body>
+</html>
