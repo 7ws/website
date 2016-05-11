@@ -9,3 +9,10 @@ Unipath==1.1
 
 # 12fator-like database URL parser
 dj-database-url==0.4.0
+
+# HTTP server for WSGI
+gunicorn==19.4.5
+gevent==1.1.1
+
+# Allow Heroku to serve static files
+whitenoise==3.0

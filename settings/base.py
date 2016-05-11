@@ -38,6 +38,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 
     # Third-party middlewares
+    'whitenoise.middleware.WhiteNoiseMiddleware',
 
     # Local middlewares
 ]
